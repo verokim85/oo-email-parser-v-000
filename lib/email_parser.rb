@@ -8,7 +8,7 @@ end
 
 def parse
   emails.map do |email| email.split(", ")
-  end 
+  end
 end
 
 
