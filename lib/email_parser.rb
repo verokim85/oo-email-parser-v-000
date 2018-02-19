@@ -9,6 +9,7 @@ end
 def parse
   word = emails.split(", ")
   word.map do |email| email.split(", ")
+    email
   end
 end
 
